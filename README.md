@@ -31,4 +31,4 @@ or
 
 If you do not give a parcel, it will assume 109-02-088.
 
-To go to the front-end site, just go to the home page at [localhost:3000](http://localhost:3000). Click on one of the five parcels availabe, and it will load the data for that parcel.
+To go to the front-end site, just go to the home page at [localhost:3000](http://localhost:3000). Click on one of the five parcels availabe, and it will load the data for that parcel. Data is displayed in two columns if the screen is wide enough. Update date is available as a tooltip by hovering over the data value field.
