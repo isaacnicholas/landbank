@@ -18,6 +18,8 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
+For the program to work correctly, you should add a Google Maps API key. I removed mine from the project since it is a security risk to have a completely open API key like that in a public GitHib repo (and Google reminded me of this within a minute of me pushing it). You can add a key by creating a text file in the root directory called 'mapskey.txt' and place your API key there. Without this file, the program will still work, but there will be an error over the map.
+
 To run the program, just type `python run.py` and the flask program will start.
 
 ## Using

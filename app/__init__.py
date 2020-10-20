@@ -46,3 +46,13 @@ if __name__ == "__main__":
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.context_processor
+def mapskey():
+    key = ''
+    try:
+        f = open('mapskey.txt','r')
+        key = f.read()
+    except:
+        pass
+    return {'mapskey':key}
